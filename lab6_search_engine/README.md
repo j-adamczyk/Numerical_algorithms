@@ -11,7 +11,8 @@ It's then changed to TF-IDF (Term Frequency - Inverse Document Frequency) matrix
 Column vectors (representing documents) are then normalized. It allows us to use cosine similarity measure as simple dot product of query bag-of-words vector and document vector. 
 Similarities are then sorted in descending order and displayed, meaning more similar documents are first in search results. 
 Matrix and query are huge, so they are optimized with SVD matrix compression, so instead of huge sparse matrix app is operating on small dense matrices. 
-As an added bonus, SVD reduces data noise, yielding better search results.
+As an added bonus, SVD reduces data noise, yielding better search results. 
+Matrix is saved to file, so preprocessing phase (which takes up to half an hour, depending primarily on number of source files, since disk read is costly) is ommitted during normal usage.
 
 ## How frontend works
 It's my first web app ever, so it's just a simple Flask "Hello world" template changed to use input field and display results. 
