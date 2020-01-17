@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ title }}</title>
+    </head>
+
+<body>
+    <font face="Trebuchet MS">
+
+    <font size="+2"><b>{{ title }}</b></font>
+    <p>
+    {% autoescape false %}
+    {{ text }}
+    {% endautoescape %}
+    </p>
+    </font>
+</body>
+</html>
