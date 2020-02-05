@@ -1,4 +1,4 @@
-# Lab 6: Search Engine
+# Laboratory 6 - Search Engine
 
 This mini-Google clone is search engine implementation, complete with SciPy backend and Flask frontend. 
 It was used with Simple English Wikipedia dump, but it can use any text with reasonable amount of unique words.
