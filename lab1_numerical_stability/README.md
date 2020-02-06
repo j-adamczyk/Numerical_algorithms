@@ -15,7 +15,7 @@ in terms of forward and backward series partial summation. It proves that comput
 is not associative.
 
 ## Task 4 - logistic map
-Simple logistic equation given by $x_{n+1}=rx_n(1-x_n)$ is the very basic example of 
+Simple logistic equation given by x_{n+1} = r * x_n * (1 - x_n) is the very basic example of 
 deterministic chaos, a. k. a. butterfly effect. It's clearly visible on bifurcation 
 diagrams that for smallest changes of values in calculations this expression varies wildly, 
 but deterministically.
