@@ -12,7 +12,7 @@ Lab 5: Singular Value Decomposition (SVD), 3D transformations, image compression
 Lab 6: mini-Google (search engine using linear algebra, SVD and Flask frontend)  
 Lab 7: spectral decomposition, computing eigenvalues  
 Lab 8: TODO (simple PageRank implementation)  
-Lab 9: DTF applications, pattern recognition, OCR
+Lab 9: DTF applications, pattern recognition, OCR  
 Lab 10: DTF, FFT, analyzing digital signals  
 Lab 11: QR factorization  
 Lab 12: numerical integration in 1D and 2D  
